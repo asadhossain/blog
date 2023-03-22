@@ -7,9 +7,9 @@
         $dbpass = "";
         $dbname = 'blogproject';
         
-        $this-> $conn= mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) ;
+        $this->conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) ;
 
-        if(!$this-> $conn){
+        if(!$this->conn){
             die('Database Connection Error!!!');
         }
 
