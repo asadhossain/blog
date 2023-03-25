@@ -16,16 +16,14 @@
                     if(isset($view)){
                         if($view=="dashboard"){
                             include('view/dash_view.php');
-                        }elseif($view=="add_catagory"){
+                        }elseif($view=="add_category"){
                             include('view/add_cat_view.php');
-                        }elseif($view=="add_catagory"){
-                            include('view/add_cat_view.php');
-                        }elseif($view=="add_catagory"){
-                            include('view/add_cat_view.php');
-                        }elseif($view=="add_catagory"){
-                            include('view/add_cat_view.php');
-                        }elseif($view=="add_catagory"){
-                            include('view/add_cat_view.php');
+                        }elseif($view=="add_post"){
+                            include('view/add_post_view.php');
+                        }elseif($view=="manage_category"){
+                            include('view/manage_cat_view.php');
+                        }elseif($view=="manage_post"){
+                            include('view/manage_post_view.php');
                         }
                     }
                ?>

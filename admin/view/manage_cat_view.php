@@ -1,1 +1,1 @@
-<h2>Manage Catagory View</h2>
+<h2>Manage Category View</h2>

@@ -1,1 +1,1 @@
-<h2>Add Catagory View</h2>
+<h2>Add category View</h2>

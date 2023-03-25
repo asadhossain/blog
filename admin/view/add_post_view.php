@@ -1,1 +1,1 @@
-<h2>Add Post Catagory</h2>
+<h2>Add Post category</h2>
