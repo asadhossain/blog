@@ -16,6 +16,16 @@
                     if(isset($view)){
                         if($view=="dashboard"){
                             include('view/dash_view.php');
+                        }elseif($view=="add_catagory"){
+                            include('view/add_cat_view.php');
+                        }elseif($view=="add_catagory"){
+                            include('view/add_cat_view.php');
+                        }elseif($view=="add_catagory"){
+                            include('view/add_cat_view.php');
+                        }elseif($view=="add_catagory"){
+                            include('view/add_cat_view.php');
+                        }elseif($view=="add_catagory"){
+                            include('view/add_cat_view.php');
                         }
                     }
                ?>

@@ -1,1 +1,1 @@
-<h2>Add Post View</h2>
+<h2>Add Post Catagory</h2>

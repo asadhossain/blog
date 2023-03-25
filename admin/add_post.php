@@ -1,1 +1,4 @@
-<h2>Add Post Catagory</h2>
+<?php 
+    $view = 'add_post';
+    include('template.php');
+?>
