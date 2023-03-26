@@ -7,7 +7,7 @@
         $dbpass = "";
         $dbname = 'blogproject';
         
-        $this->conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) ;
+        $this->conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
         if(!$this->conn){
             die('Database Connection Error!!!');
@@ -16,6 +16,7 @@
 
 
       
+
     }
 
     public function admin_login($data) {
