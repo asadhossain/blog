@@ -30,17 +30,15 @@
             $admin_info = mysqli_query($this->conn, $query);
 
             if($admin_info){
-                header("location:admin/dashboard.php");
+                header("location:dashboard.php");
             }
         }
 
 
     }
 
-    
 
-
-    }
+}
 
 
 
