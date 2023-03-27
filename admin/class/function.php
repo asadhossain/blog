@@ -21,11 +21,11 @@
         
         $query = "SELECT * FROM admin_info WHERE admin_email='$admin_email' && admin_pass='$admin_pass' ";
 
-        if(mysqli_query($this->conn, $query)){
+        if(gi ($this->conn, $query)){
             $admin_info = mysqli_query($this->conn, $query);
 
             if($admin_info){
-                header("location: dashboard.php");
+                header("location:dashboard.php");
             }
         }
 
