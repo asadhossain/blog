@@ -26,6 +26,8 @@
 
             if($admin_info){
                 header("location:dashboard.php");
+                $admin_data = mysqli_fetch_accoc($admin_info);
+                $_SESSION['adminID']
             }
         }
 
