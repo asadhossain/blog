@@ -14,7 +14,7 @@
         }
        } 
 
-    public function admin_login($data) {
+    public function admin_login($data){
 
         $admin_email = $data['admin_email'];
         $admin_pass = md5($data['admin_pass']);
