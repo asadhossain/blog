@@ -45,7 +45,7 @@ if(isset($_POST['admin_login'])){
                                         </div>
                                 
                                         <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
-                                            <input type="submit" neme="admin_login"  value="login" neme="admin_login" class="btn btn-info">
+                                            <input type="submit" value="login" neme="admin_login" class="btn btn-info">
                                         </div>
                                     </form>
                                 </div>
